@@ -2,7 +2,6 @@
 
 **PayU driver for the Omnipay payment processing library**
 
-[![Build Status](https://travis-ci.org/thephpleague/omnipay-payu.png?branch=master)](https://travis-ci.org/thephpleague/omnipay-payu)
 [![Latest Stable Version](https://poser.pugx.org/omnipay/payu/version.png)](https://packagist.org/packages/omnipay/payu)
 [![Total Downloads](https://poser.pugx.org/omnipay/payu/d/total.png)](https://packagist.org/packages/omnipay/payu)
 
