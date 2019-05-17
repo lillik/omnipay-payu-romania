@@ -1,5 +1,5 @@
 {
-    "name": "omnipay/payu-romania",
+    "name": "dantoma/payu-romania",
     "type": "library",
     "description": "PayU Romania driver for the Omnipay payment processing library",
     "keywords": [
