@@ -1,6 +1,6 @@
 <?php
 
-namespace Omnipay\Payu\Message;
+namespace DanToma\Omnipay\PayURomania\Message;
 
 use Omnipay\Common\Message\AbstractResponse;
 use Omnipay\Common\Message\RedirectResponseInterface;

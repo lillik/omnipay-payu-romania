@@ -16,7 +16,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "omnipay/payu": "~2.0"
+        "dantoma/payu-romania": "~2.0"
     }
 }
 ```

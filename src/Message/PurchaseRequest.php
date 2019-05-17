@@ -1,6 +1,6 @@
 <?php
 
-namespace Omnipay\PayU\Message;
+namespace DanToma\Omnipay\PayURomania\Message;
 
 use Omnipay\Common\CreditCard;
 use Omnipay\Common\Item;
@@ -261,7 +261,7 @@ class PurchaseRequest extends AbstractRequest
      * Source string for HMAC_MD5 will be calculated by adding the length
      * of each field value at the beginning of field value. A common key
      * shared between PayU and the merchant is used for the signature.
-     * Find more details on how is HASH generated https://secure.payu.com.tr/docs/alu/v3/#hash
+     * Find more details on how is HASH generated https://secure.payu.ro/docs/alu/v3/#hash
      * @param array $data
      * @return string
      */

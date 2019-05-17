@@ -1,8 +1,8 @@
 <?php
-namespace Omnipay\PayU;
+namespace DanToma\Omnipay\PayURomania;
 
 use Omnipay\Common\AbstractGateway;
-use Omnipay\Payu\Message\PurchaseResponse;
+use DanToma\Omnipay\PayURomania\Message\PurchaseResponse;
 
 
 /**
@@ -41,7 +41,7 @@ class Gateway extends AbstractGateway
      * @return \Omnipay\Common\Message\AbstractRequest
      */
     public function authorize(array $parameters = array()){
-        return $this->createRequest('\Omnipay\PayU\Message\AuthorizeRequest', $parameters);
+        return $this->createRequest('\DanToma\Omnipay\PayURomania\Message\AuthorizeRequest', $parameters);
     }
 
     /**
@@ -49,7 +49,7 @@ class Gateway extends AbstractGateway
      * @return \Omnipay\Common\Message\AbstractRequest
      */
     public function capture(array $parameters = array()){
-        return $this->createRequest('\Omnipay\PayU\Message\CaptureRequest', $parameters);
+        return $this->createRequest('\DanToma\Omnipay\PayURomania\Message\CaptureRequest', $parameters);
     }
 
     /**
@@ -58,7 +58,7 @@ class Gateway extends AbstractGateway
      */
     public function purchase(array $parameters = array())
     {
-        return $this->createRequest('\Omnipay\PayU\Message\PurchaseRequest', $parameters);
+        return $this->createRequest('\DanToma\Omnipay\PayURomania\Message\PurchaseRequest', $parameters);
     }
 
     /**
@@ -66,7 +66,7 @@ class Gateway extends AbstractGateway
      * @return \Omnipay\Common\Message\AbstractRequest
      */
     public function refund(array $parameters = array()){
-        return $this->createRequest('\Omnipay\PayU\Message\RefundRequest', $parameters);
+        return $this->createRequest('\DanToma\Omnipay\PayURomania\Message\RefundRequest', $parameters);
     }
 
     function __call($name, $arguments)
