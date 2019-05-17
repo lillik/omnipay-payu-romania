@@ -24,7 +24,7 @@
         }
     ],
     "autoload": {
-        "psr-4": { "Omnipay\\PayU\\" : "src/" }
+        "psr-4": { "DanToma\\Omnipay\\PayURomania\\" : "src/" }
     },
     "require": {
         "omnipay/common": "~2.0"
