@@ -1,7 +1,7 @@
 {
-    "name": "omnipay/payu",
+    "name": "omnipay/payu-romania",
     "type": "library",
-    "description": "PayU driver for the Omnipay payment processing library",
+    "description": "PayU Romania driver for the Omnipay payment processing library",
     "keywords": [
         "gateway",
         "merchant",
@@ -11,7 +11,7 @@
         "payu",
         "purchase"
     ],
-    "homepage": "https://github.com/efesaid/omnipay-payu",
+    "homepage": "https://github.com/dantoma/omnipay-payu-romania",
     "license": "MIT",
     "authors": [
         {
@@ -19,8 +19,8 @@
             "email": "said.imamoglu@biberltd.com"
         },
         {
-            "name": "Omnipay Contributors",
-            "homepage": "https://github.com/efesaid/omnipay-payu/contributors"
+            "name": "Dan Toma",
+            "homepage": "https://github.com/dantoma/omnipay-payu-romania"
         }
     ],
     "autoload": {
