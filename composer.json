@@ -9,7 +9,8 @@
         "pay",
         "payment",
         "payu",
-        "purchase"
+        "purchase",
+        "romania"
     ],
     "homepage": "https://github.com/dantoma/omnipay-payu-romania",
     "license": "MIT",
