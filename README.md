@@ -35,7 +35,7 @@ $ cd /var/www/invoice_ninja/ninja
 $ composer require dantoma/payu-romania
 ```
 
-If the command from above doesn't work for you here's what worked for me:
+If the above command doesn't work for you here's what worked for me:
 
 ```
 $ php -d memory_limit=-1 /usr/local/bin/composer require dantoma/payu-romania
