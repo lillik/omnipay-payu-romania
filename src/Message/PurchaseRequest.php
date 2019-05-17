@@ -16,9 +16,9 @@ class PurchaseRequest extends AbstractRequest
      * @var array
      */
     protected $endpoints = array(
-        'authorize' => 'https://secure.payu.com.tr/order/alu/v3',
-        'purchase' => 'https://secure.payu.com.tr/order/alu/v3',
-        'test' => 'http://secure.payu.com.tr/order/alu/v3',
+        'authorize' => 'https://secure.payu.ro/order/alu/v3',
+        'purchase' => 'https://secure.payu.ro/order/alu/v3',
+        'test' => 'http://secure.payu.ro/order/alu/v3',
     );
     /**
      * @var array
