@@ -26,7 +26,6 @@ To use this driver with your self-hosted Invoice [Ninja installation](http://www
 
 ```
 $ cd /var/www/invoice_ninja/ninja
-
 ```
 
 2. And run:
