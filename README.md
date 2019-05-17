@@ -18,10 +18,36 @@ to your `composer.json` file:
 }
 ```
 
-And run composer to update your dependencies:
+## Invoice Ninja Installation
 
-    $ curl -s http://getcomposer.org/installer | php
-    $ php composer.phar update
+To use this driver with your self-hosted Invoice [Ninja installation](http://www.invoiceninja.org) follow this steps:
+
+1. Go to you Invoice Ninja installation
+
+```
+$ cd /var/www/invoice_ninja/ninja
+
+```
+
+2. And run:
+
+```
+$ composer require dantoma/payu-romania
+```
+
+If the command from above doesn't work for you here's what worked for me:
+
+```
+$ php -d memory_limit=-1 /usr/local/bin/composer require dantoma/payu-romania
+```
+
+3. Follow this [guide](https://invoice-ninja.readthedocs.io/en/latest/configure.html#omnipay) to add the new payment gateway in Invoice Ninja
+
+The name of the prrovider is:
+
+```
+\DanToma\Omnipay\PayURomania\Gateway 
+```
 
 
 For general usage instructions, please see the main [Omnipay](https://github.com/thephpleague/omnipay)
