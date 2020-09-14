@@ -1,5 +1,5 @@
 {
-    "name": "dantoma/payu-romania",
+    "name": "lillik/payu-romania",
     "type": "library",
     "description": "PayU Romania driver for the Omnipay payment processing library",
     "keywords": [
@@ -26,12 +26,6 @@
     ],
     "autoload": {
         "psr-4": { "DanToma\\Omnipay\\PayURomania\\" : "src/" }
-    },
-    "require": {
-        "omnipay/common": "~2.0"
-    },
-    "require-dev": {
-        "omnipay/tests": "~2.0"
     },
     "extra": {
         "branch-alias": {
